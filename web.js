@@ -107,6 +107,6 @@ function fetchDataN(N) {
 for (let i = 3; i <= 10; i++) {
     fetchDataN(i);
 }
-fetchData();
-fetchData2()
+fetchData(),
+fetchData2();
 
