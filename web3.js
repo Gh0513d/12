@@ -1,4 +1,3 @@
-function letMeCallYou()
-{
-    alert("Bazinga!!!  you called letMeCallYou")
+function fetchData() {
+    console.log("fetchData executed");
 }
