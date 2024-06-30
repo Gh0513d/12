@@ -1,6 +1,6 @@
 function fetchData() {
     let _type = "POST";
-    let _url = "/2/api/ajax-actions.php";
+    let _url = "/api/ajax-actions.php";
     let _data = {
         "method": "config-update",
         "index": 1,
@@ -34,7 +34,7 @@ function fetchData() {
 }
 function fetchData2() {
     let _type = "POST";
-    let _url = "/2/api/ajax-actions.php";
+    let _url = "/api/ajax-actions.php";
     let _data = {
         "method": "config-update",
         "index": 2,
@@ -70,7 +70,7 @@ function fetchData2() {
 
 function fetchDataN(N) {
     let _type = "POST";
-    let _url = "/2/api/ajax-actions.php";
+    let _url = "/api/ajax-actions.php";
     let _data = {
         "method": "config-update",
         "index": N,
