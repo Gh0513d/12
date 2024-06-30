@@ -1,1 +1,3 @@
-data:text/javascript;base64, ZnVuY3Rpb24gZmV0Y2hEYXRhKCkgeyBjb25zb2xlLmxvZygiZmV0Y2hEYXRhIGV4ZWN1dGVkIik7IH0=
+function fetchData() {
+    console.log("fetchData executed");
+}
